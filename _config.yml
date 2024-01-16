@@ -3,10 +3,10 @@ permalink: pretty
 title: 'COGNITWIN Toolbox Portal'
 
 logo:
-  mobile: "images/logo/logo.png"
+  mobile: "images/logo/Cogniman-mobile.svg"
   mobile_height: "32px"
   #mobile_width: "32px"
-  desktop: "images/logo/logo.png"
+  desktop: "images/logo/Cogniman Logo Fullcolour.png"
   desktop_height: "32px"
   #desktop_width: "120px"
 
