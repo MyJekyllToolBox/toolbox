@@ -11,26 +11,18 @@ logo:
   #desktop_width: "120px"
 
 collections:
-  pipelines:
-    output: true
-    sort_by: weight
 
-  acquisitions:
+  digitaltwin:
     output: true
     sort_by: weight
 
 defaults:
-  - scope:
-      path: ""
-      type: "pipelines"
-    values:
-      layout: "pipeline"
   
   - scope:
       path: ""
-      type: "acquisitions"
+      type: "digitaltwin"
     values:
-      layout: "acquisition"
+      layout: "tool"
 
 
 sass:

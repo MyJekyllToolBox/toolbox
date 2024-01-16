@@ -41,7 +41,7 @@ bodyClass: "page-home"
   </div>
 </div> -->
 
-<div class="strip" style="background: #D7E9B9;">
+<!-- <div class="strip" style="background: #D7E9B9;">
   <div class="container pt-6 pb-6 pb-md-10">
     <h1 class="title">Digital Twin Pipelines</h1>
     <div class="row justify-content-start">
@@ -61,7 +61,7 @@ bodyClass: "page-home"
     </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- {% if site.data.features %}
@@ -99,19 +99,33 @@ bodyClass: "page-home"
           <div class="row justify-content-center">
             
             {% if feature.link %}
-              <div class="col-auto"><a href="{{ feature.link }}" target="blank"> <img src="/toolbox/images/home.svg" alt="external logo"/> </a> </div>
+              <div class="col-auto">
+                <a href="{{ feature.link }}" target="blank"> 
+                  <img src="/toolbox/images/home.svg" alt="external logo"/> 
+                </a> 
+              </div>
             {% endif %}
 
             {% if feature.github %}
-              <div class="col-auto"><a href="{{ feature.github }}" target="blank"> <img src="/toolbox/images/github-mark.svg" alt="github"/> </a> </div>
+              <div class="col-auto">
+                <a href="{{ feature.github }}" target="blank"> 
+                  <img src="/toolbox/images/github-mark.svg" alt="github"/> 
+                </a> 
+              </div>
             {% endif %}
 
             {% if feature.license %}
-              <div class="col-auto"> <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank"> <img src="{{ feature.license }}" alt="License" /></div>
+              <div class="col-auto"> 
+                <img src="{{ feature.license }}" alt="License" />
+              </div>
             {% endif %}
 
             {% if feature.trl %}
-              <div class="col-auto"><img src="{{ feature.trl }}" alt="TRL" /> </div>
+              <div class="col-auto"> 
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020-wp1415-annex-g-trl_en.pdf" target="blank">
+                  <img src="{{ feature.trl }}" alt="TRL" />
+                </a> 
+              </div>
             {% endif %}
           </div>
         </div>
