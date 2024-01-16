@@ -11,6 +11,11 @@ logo:
   #desktop_width: "120px"
 
 collections:
+
+  pipelines:
+    output: true
+    sort_by: weight
+
   digitaltwin:
     output: true
     sort_by: weight
@@ -21,6 +26,12 @@ defaults:
       type: "digitaltwin"
     values:
       layout: "tool"
+  
+  - scope:
+      path: ""
+      type: "pipelines"
+    values:
+      layout: "pipeline"
 
 
 sass:
