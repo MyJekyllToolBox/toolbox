@@ -90,8 +90,8 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Digital Twin Data Acquisition Tools & Services</h2>
     <div class="row justify-content-start">
-      {% assign acquisitions = site.acquisitions | sort: "weight" %}
-      {% for feature in acquisitions %}
+      {% assign digitaltwin = site.digitaltwin | sort: "weight" %}
+      {% for feature in digitaltwin %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature" style="  border-radius: 10px 10px 10px 10px; border: 2px solid #3C6255;">
           <h3 class="feature-title"><a href="{{ feature.url | relative_url }}">{{ feature.title }}</a></h3>
