@@ -11,13 +11,11 @@ logo:
   #desktop_width: "120px"
 
 collections:
-
   digitaltwin:
     output: true
     sort_by: weight
 
 defaults:
-  
   - scope:
       path: ""
       type: "digitaltwin"
