@@ -19,6 +19,30 @@ collections:
   digitaltwin:
     output: true
     sort_by: weight
+  
+  physicaltwin:
+    output: true
+    sort_by: weight
+  
+  datalayer:
+    output: true
+    sort_by: weight
+  
+  servicelayer:
+    output: true
+    sort_by: weight
+  
+  userinterface:
+    output: true
+    sort_by: weight
+  
+  connectivity:
+    output: true
+    sort_by: weight
+  
+  ssh:
+    output: true
+    sort_by: weight
 
 defaults:
   - scope:
@@ -32,6 +56,42 @@ defaults:
       type: "pipelines"
     values:
       layout: "pipeline"
+  
+  - scope:
+      path: ""
+      type: "physicaltwin"
+    values:
+      layout: "tool"
+
+  - scope:
+      path: ""
+      type: "datalayer"
+    values:
+      layout: "tool"  
+
+  - scope:
+      path: ""
+      type: "servicelayer"
+    values:
+      layout: "tool"  
+  
+  - scope:
+      path: ""
+      type: "userinterface"
+    values:
+      layout: "tool"
+
+  - scope:
+      path: ""
+      type: "connectivity"
+    values:
+      layout: "tool"
+    
+  - scope:
+      path: ""
+      type: "ssh"
+    values:
+      layout: "tool"
 
 
 sass:
