@@ -13,4 +13,4 @@ The COGNIMAN Toolbox is structured according to a defined Digital Twin pipeline,
 
 As shown in the figure, four main steps for the pipeline have been defined, corresponding to 1) DT data acquisition tools & services, 2) DT representation tools & services, 3) DT analytics tools & services, and 4) DT visualization and control tools & services that will be explained below.
 
-![Toolbox](images/toolbox/cogniman_architecture.png.png)
+![Toolbox](images/toolbox/cogniman_architecture.png)
