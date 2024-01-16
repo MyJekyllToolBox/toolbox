@@ -1,6 +1,6 @@
 baseurl: '/'
 permalink: pretty
-title: 'COGNITWIN Toolbox Portal'
+title: 'COGNIMAN Toolbox Portal'
 
 logo:
   mobile: "images/logo/Cogniman-mobile.svg"
@@ -11,12 +11,6 @@ logo:
   #desktop_width: "120px"
 
 collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
-    output: true
-  
   pipelines:
     output: true
     sort_by: weight
@@ -26,16 +20,6 @@ collections:
     sort_by: weight
 
 defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
   - scope:
       path: ""
       type: "pipelines"
