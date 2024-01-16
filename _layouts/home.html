@@ -347,7 +347,7 @@ bodyClass: "page-home"
 <div class="strip" style="background: #0f86e7;">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <h1 class="title">Connectivity and Intergration</h1>
-    <h5>{{ site.data.layers.connectivity }}</h5>
+    <h5 style="color: #ffffff">{{ site.data.layers.connectivity }}</h5>
     <div class="row justify-content-start">
       {% assign connectivity = site.connectivity | sort: "weight" %}
       {% for feature in connectivity %}

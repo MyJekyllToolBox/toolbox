@@ -9,7 +9,7 @@ link: "http://mytool.ex"
 github: "https://github.com/tool"
 ---
 
-Your project description goes here.
+Your tool short description goes here.
 
 ## Name
 Your Tool Acronym/Name

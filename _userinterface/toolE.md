@@ -8,7 +8,7 @@ trl: "https://img.shields.io/badge/TRL-8-green"
 link: "http://mytool.ex"
 ---
 
-Your project description goes here.
+Your tool short description goes here.
 
 ## Name
 Your Tool Acronym/Name
