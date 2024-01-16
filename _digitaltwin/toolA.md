@@ -1,6 +1,6 @@
 ---
 title: "Your tool Title"
-date: YYYY-MM-DDTHH:mm:ss±HH:MM
+date: 2024-01-16T12:00:00+00:00
 weight: 1
 description: "Your tool short description goes here."
 license: "https://img.shields.io/badge/license-Apache2.0-blue"
